@@ -5,7 +5,7 @@ export default function CTAFinal() {
         <span className="inline-block text-xs tracking-[0.2em] uppercase text-[#c4956a] font-medium">
           Tu momento es ahora
         </span>
-        <h2 className="font-serif text-4xl md:text-6xl font-light text-white leading-tight">
+        <h2 className="font-serif text-3xl md:text-6xl font-light text-white leading-tight">
           Es tu momento de cuidar tu piel
         </h2>
         <p className="text-[#a89487] font-light text-xl leading-relaxed max-w-2xl mx-auto">

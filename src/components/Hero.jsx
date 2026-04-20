@@ -10,13 +10,13 @@ export default function Hero() {
         <div className="absolute top-32 right-24 w-24 h-24 rounded-full bg-[#c4956a]/10" />
       </div>
 
-      <div className="relative z-10 max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center pt-20">
+      <div className="relative z-10 max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center pt-24 pb-20 md:pt-20 md:pb-0">
         <div className="space-y-7">
           <span className="inline-block text-xs tracking-[0.2em] uppercase text-[#c4956a] font-medium">
             Estética facial personalizada
           </span>
 
-          <h1 className="font-serif text-5xl md:text-6xl lg:text-7xl font-light leading-[1.1] text-[#2c2018]">
+          <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-light leading-[1.1] text-[#2c2018]">
             Recupera una piel{' '}
             <em className="not-italic text-[#c4956a]">sana</em> y{' '}
             <em className="not-italic text-[#c4956a]">luminosa</em>
@@ -42,19 +42,19 @@ export default function Hero() {
             </a>
           </div>
 
-          <div className="flex items-center gap-8 pt-4 border-t border-[#e8ddd4]">
+          <div className="flex items-center gap-4 sm:gap-8 pt-4 border-t border-[#e8ddd4]">
             <div>
-              <p className="font-serif text-3xl text-[#5a3e35]">+200</p>
+              <p className="font-serif text-2xl sm:text-3xl text-[#5a3e35]">+200</p>
               <p className="text-xs text-[#8a7a72] tracking-wide">Clientas felices</p>
             </div>
             <div className="w-px h-10 bg-[#e8ddd4]" />
             <div>
-              <p className="font-serif text-3xl text-[#5a3e35]">5+</p>
-              <p className="text-xs text-[#8a7a72] tracking-wide">Años de experiencia</p>
+              <p className="font-serif text-2xl sm:text-3xl text-[#5a3e35]">5+</p>
+              <p className="text-xs text-[#8a7a72] tracking-wide">Años experiencia</p>
             </div>
             <div className="w-px h-10 bg-[#e8ddd4]" />
             <div>
-              <p className="font-serif text-3xl text-[#5a3e35]">100%</p>
+              <p className="font-serif text-2xl sm:text-3xl text-[#5a3e35]">100%</p>
               <p className="text-xs text-[#8a7a72] tracking-wide">Personalizado</p>
             </div>
           </div>

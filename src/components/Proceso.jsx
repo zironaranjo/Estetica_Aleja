@@ -35,11 +35,14 @@ export default function Proceso() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8 relative">
+        <div className="grid md:grid-cols-3 gap-14 md:gap-8 relative">
           <div className="hidden md:block absolute top-12 left-1/6 right-1/6 h-px bg-[#e8ddd4]" />
 
           {pasos.map((p, i) => (
             <div key={i} className="relative flex flex-col items-center text-center space-y-4">
+              {i < pasos.length - 1 && (
+                <div className="md:hidden absolute top-16 left-1/2 -translate-x-1/2 w-px h-12 bg-[#e8ddd4]" />
+              )}
               <div className="relative z-10 w-16 h-16 rounded-full bg-[#5a3e35] flex items-center justify-center">
                 <span className="font-serif text-white text-lg font-light">{p.numero}</span>
               </div>

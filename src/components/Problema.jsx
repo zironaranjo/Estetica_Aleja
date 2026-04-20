@@ -25,7 +25,7 @@ export default function Problema() {
           <span className="inline-block text-xs tracking-[0.2em] uppercase text-[#c4956a] font-medium">
             ¿Te suena familiar?
           </span>
-          <h2 className="font-serif text-4xl md:text-5xl font-light text-white leading-tight">
+          <h2 className="font-serif text-3xl md:text-5xl font-light text-white leading-tight">
             Tu piel merece más que soluciones genéricas
           </h2>
           <p className="text-[#a89487] font-light leading-relaxed text-lg">

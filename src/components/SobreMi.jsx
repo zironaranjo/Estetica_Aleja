@@ -8,8 +8,8 @@ export default function SobreMi() {
   return (
     <section id="sobre-mi" className="py-24 bg-[#f5ede6]">
       <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
-        <div className="relative">
-          <div className="w-full aspect-square max-w-sm bg-[#e8d5c4] rounded-[2.5rem] overflow-hidden flex items-center justify-center">
+        <div className="relative pb-8 md:pb-0">
+          <div className="w-full aspect-square max-w-sm bg-[#e8d5c4] rounded-[2.5rem] overflow-hidden flex items-center justify-center mx-auto md:mx-0">
             <div className="text-center space-y-4 p-10">
               <div className="w-20 h-20 rounded-full bg-[#c4956a]/20 mx-auto flex items-center justify-center">
                 <svg className="w-10 h-10 text-[#c4956a]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -24,7 +24,7 @@ export default function SobreMi() {
               </div>
             </div>
           </div>
-          <div className="absolute -bottom-5 -right-5 bg-white rounded-2xl p-4 border border-[#e8ddd4]">
+          <div className="absolute bottom-0 right-0 md:-bottom-5 md:-right-5 bg-white rounded-2xl p-4 border border-[#e8ddd4]">
             <p className="font-serif text-3xl text-[#c4956a]">+200</p>
             <p className="text-xs text-[#8a7a72]">Clientas satisfechas</p>
           </div>
