@@ -16,7 +16,7 @@ export default function SobreMi() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                 </svg>
               </div>
-              <p className="font-serif text-2xl text-[#5a3e35] italic">Aleja</p>
+              <p className="font-serif text-2xl text-[#5a3e35] italic">Moldearte</p>
               <p className="text-[#8a7a72] text-sm font-light">Especialista en estética facial</p>
               <div className="flex justify-center gap-2">
                 <span className="text-xs bg-[#5a3e35]/10 text-[#5a3e35] px-3 py-1 rounded-full">+5 años</span>

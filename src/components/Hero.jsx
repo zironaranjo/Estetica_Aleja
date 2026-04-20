@@ -1,3 +1,5 @@
+import logo from '/moldearte.png'
+
 export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#fdfaf7]">
@@ -62,13 +64,9 @@ export default function Hero() {
           <div className="relative w-full aspect-[3/4] max-w-sm ml-auto">
             <div className="absolute inset-0 rounded-[2rem] bg-[#e8d5c4] overflow-hidden">
               <div className="absolute inset-0 flex items-center justify-center">
-                <div className="text-center space-y-3 p-8">
-                  <div className="w-24 h-24 rounded-full bg-[#c4956a]/20 mx-auto flex items-center justify-center">
-                    <svg className="w-12 h-12 text-[#c4956a]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-                    </svg>
-                  </div>
-                  <p className="font-serif text-2xl text-[#5a3e35] italic">Tu piel,<br/>tu mejor versión</p>
+                <div className="text-center space-y-5 p-8">
+                  <img src={logo} alt="Moldearte" className="h-20 w-auto object-contain mx-auto" />
+                  <p className="font-serif text-xl text-[#5a3e35] italic">Tu piel,<br/>tu mejor versión</p>
                   <p className="text-[#8a7a72] text-sm font-light">Resultados visibles desde<br/>la primera sesión</p>
                 </div>
               </div>

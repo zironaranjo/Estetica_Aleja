@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import logo from '/moldearte.png'
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false)
@@ -24,8 +25,8 @@ export default function Navbar() {
       }`}
     >
       <nav className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-        <a href="#" className="font-serif text-xl font-light tracking-wide text-[#5a3e35]">
-          Aleja<span className="text-[#c4956a]">·</span>Estética
+        <a href="#" className="flex items-center">
+          <img src={logo} alt="Moldearte" className="h-10 w-auto object-contain" />
         </a>
 
         <ul className="hidden md:flex items-center gap-8">
