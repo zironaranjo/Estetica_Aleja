@@ -1,4 +1,4 @@
-import logo from '/moldearte.png'
+import logo from '/moldeArte.png'
 
 export default function Hero() {
   return (
