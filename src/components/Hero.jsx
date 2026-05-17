@@ -62,12 +62,12 @@ export default function Hero() {
 
         <div className="relative hidden md:block">
           <div className="relative w-full aspect-[3/4] max-w-sm ml-auto">
-            <div className="absolute inset-0 rounded-[2rem] bg-[#2c2018] overflow-hidden">
+            <div className="absolute inset-0 rounded-[2rem] bg-[#e8d5c4] overflow-hidden">
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="text-center space-y-5 p-8">
                   <img src={logo} alt="Moldearte" className="h-32 w-auto object-contain mx-auto" />
-                  <p className="font-serif text-xl text-[#e8d5c4] italic">Tu piel,<br/>tu mejor versión</p>
-                  <p className="text-[#a89487] text-sm font-light">Resultados visibles desde<br/>la primera sesión</p>
+                  <p className="font-serif text-xl text-[#5a3e35] italic">Tu piel,<br/>tu mejor versión</p>
+                  <p className="text-[#8a7a72] text-sm font-light">Resultados visibles desde<br/>la primera sesión</p>
                 </div>
               </div>
             </div>

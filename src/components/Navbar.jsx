@@ -26,7 +26,7 @@ export default function Navbar() {
     >
       <nav className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
         <a href="#" className="flex items-center">
-          <img src={logo} alt="Moldearte" className="h-16 w-auto object-contain" style={{filter: 'drop-shadow(0 1px 6px rgba(90,62,53,0.35))'}} />
+          <img src={logo} alt="Moldearte" className="h-16 w-auto object-contain" />
         </a>
 
         <ul className="hidden md:flex items-center gap-8">
