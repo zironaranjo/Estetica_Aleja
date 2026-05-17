@@ -3,6 +3,7 @@ import Hero from './components/Hero'
 import Problema from './components/Problema'
 import Solucion from './components/Solucion'
 import Servicios from './components/Servicios'
+import Carrusel from './components/Carrusel'
 import PackEstrella from './components/PackEstrella'
 import Proceso from './components/Proceso'
 import Testimonios from './components/Testimonios'
@@ -21,6 +22,7 @@ export default function App() {
         <Problema />
         <Solucion />
         <Servicios />
+        <Carrusel />
         <PackEstrella />
         <Proceso />
         <Testimonios />
