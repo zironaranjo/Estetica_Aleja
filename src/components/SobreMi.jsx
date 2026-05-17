@@ -40,6 +40,15 @@ export default function SobreMi() {
             </h2>
           </div>
 
+          <div className="border-l-2 border-[#c4956a] pl-5 py-1 space-y-1">
+            <p className="font-serif text-xl text-[#5a3e35] italic">
+              ¡Bienvenida a Moldearte!
+            </p>
+            <p className="text-[#6b5c52] font-light leading-relaxed">
+              Donde cuidamos tu piel y realzamos tu belleza natural. Estamos encantadas de atenderte. ¿Cómo podemos hacer de tu visita una experiencia especial?
+            </p>
+          </div>
+
           <p className="text-[#6b5c52] font-light text-lg leading-relaxed">
             Soy especialista en estética facial y llevo más de 5 años ayudando a personas a conseguir una piel sana, equilibrada y bonita.
           </p>
