@@ -49,8 +49,8 @@ export default function Carrusel() {
           </h2>
         </div>
 
-        <div className="relative max-w-2xl mx-auto">
-          <div className="relative aspect-[4/3] rounded-2xl overflow-hidden bg-[#e8d5c4]">
+        <div className="relative max-w-sm mx-auto">
+          <div className="relative aspect-[9/16] rounded-2xl overflow-hidden bg-[#e8d5c4]">
             <ItemMedio medio={medios[actual]} activo={true} />
 
             <button
