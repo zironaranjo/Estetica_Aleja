@@ -1,3 +1,5 @@
+import { WHATSAPP_URL } from '../whatsapp'
+
 export default function CTAFinal() {
   return (
     <section id="reservar" className="py-28 bg-[#2c2018]">
@@ -14,7 +16,7 @@ export default function CTAFinal() {
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
           <a
-            href="https://wa.me/41779630102?text=%C2%A1Bienvenida%20a%20Moldearte!%20%F0%9F%8C%B8%20Donde%20cuidamos%20tu%20piel%20y%20realzamos%20tu%20belleza%20natural.%20%C2%BFC%C3%B3mo%20podemos%20hacer%20de%20tu%20visita%20una%20experiencia%20especial%3F"
+            href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2.5 px-10 py-4 bg-[#c4956a] text-white font-light tracking-wide rounded-full hover:bg-[#b08050] transition-colors text-sm"
