@@ -14,7 +14,7 @@ export default function CTAFinal() {
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
           <a
-            href="https://wa.me/34600000000?text=Hola%2C%20me%20gustaría%20reservar%20mi%20diagnóstico%20gratuito"
+            href="https://wa.me/41779630102?text=Hola%2C%20me%20gustaría%20reservar%20mi%20diagnóstico%20gratuito"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2.5 px-10 py-4 bg-[#c4956a] text-white font-light tracking-wide rounded-full hover:bg-[#b08050] transition-colors text-sm"
@@ -25,7 +25,7 @@ export default function CTAFinal() {
             Reservar por WhatsApp
           </a>
           <a
-            href="tel:+34600000000"
+            href="tel:+41779630102"
             className="inline-flex items-center justify-center gap-2.5 px-10 py-4 border border-[#3d3028] text-[#d4c5bc] font-light tracking-wide rounded-full hover:border-[#c4956a]/50 hover:text-white transition-colors text-sm"
           >
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

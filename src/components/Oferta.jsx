@@ -20,7 +20,7 @@ export default function Oferta() {
             Reservar diagnóstico gratuito
           </a>
           <a
-            href="https://wa.me/34600000000"
+            href="https://wa.me/41779630102"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 px-8 py-4 border border-white/40 text-white font-light tracking-wide rounded-full hover:bg-white/10 transition-colors text-sm"
