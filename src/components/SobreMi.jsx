@@ -12,7 +12,7 @@ export default function SobreMi() {
           <div className="w-full aspect-square max-w-sm bg-[#e8d5c4] rounded-[2.5rem] overflow-hidden flex items-center justify-center mx-auto md:mx-0">
             <div className="text-center space-y-4 p-8">
               <img src="/logo2.png" alt="Moldearte" className="w-40 h-40 object-contain mx-auto" />
-              <p className="text-[#8a7a72] text-sm font-light">Especialista en estética facial</p>
+              <p className="text-[#8a7a72] text-sm font-light">Especialista en estética facial y corporal</p>
               <div className="flex justify-center gap-2">
                 <span className="text-xs bg-[#5a3e35]/10 text-[#5a3e35] px-3 py-1 rounded-full">+5 años</span>
                 <span className="text-xs bg-[#5a3e35]/10 text-[#5a3e35] px-3 py-1 rounded-full">Formación continua</span>
