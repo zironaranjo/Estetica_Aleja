@@ -1,4 +1,4 @@
-import logo from '/moldearte.png'
+import logo from '/logo2.png'
 
 const redes = [
   {
