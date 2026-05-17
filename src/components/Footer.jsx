@@ -35,7 +35,7 @@ export default function Footer() {
     <footer className="py-10 bg-[#1e1610] border-t border-[#3d3028]">
       <div className="max-w-6xl mx-auto px-6 flex flex-col items-center gap-8">
         <div className="flex flex-col md:flex-row items-center justify-between w-full gap-6">
-          <img src={logo} alt="Moldearte" className="h-14 w-auto object-contain opacity-80" />
+          <img src={logo} alt="Moldearte" className="h-14 w-auto object-contain" style={{filter: 'drop-shadow(0 1px 6px rgba(196,149,106,0.4))'}} />
 
           <div className="flex flex-wrap justify-center gap-6 text-xs text-[#6b5c52] font-light tracking-wide">
             <a href="#servicios" className="hover:text-[#c4956a] transition-colors">Servicios</a>
